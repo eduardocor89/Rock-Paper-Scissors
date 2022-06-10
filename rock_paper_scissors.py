@@ -76,8 +76,8 @@ def beats(one, two):
 
 class Game:
 
-    p1_score = int(0)
-    p2_score = int(0)
+    p1_score = 0
+    p2_score = 0
 
     def __init__(self, p1, p2):
         self.p1 = Human_Player()
