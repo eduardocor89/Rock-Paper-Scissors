@@ -64,7 +64,7 @@ class Cycle_Player(Player):
         while True:
             index += 1
             if index % 2 == 0:
-                return moves[index]
+                return move[index]
 
 
 def beats(one, two):
